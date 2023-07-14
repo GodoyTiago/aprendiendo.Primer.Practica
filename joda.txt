@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Joda{
+ public static void main(String args[]){
+
+   Scanner in = new Scanner(System.in);
+   String nombre = "";
+   int clave = 0, antiguedad = 0;
+
+System.out.println("Welcome to The Coca Cola Company");
+
+  System.out.println("Cual es tu nombre");
+   nombre = in.nextLine();
+  System.out.println("Indique el numero de clave, por     favor");
+   clave = in.nextint();
+  System.out.println("A continuacion, indique los numeros     de antiguedad");
+   antiguedad = in.nextint();
+
+
+ }
+}
